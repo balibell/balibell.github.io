@@ -5,6 +5,11 @@ $(function (){
   $('.wd-e-story').on('tap click',function (e){
     togglepop($('#wd-story'))
   })
+
+
+  $('.wd-e-album').on('tap click',function (e){
+    togglepop($('#wd-album'))
+  })
   $('.wd-e-process').on('tap click',function (e){
     togglepop($('#wd-process'))
   })
@@ -18,7 +23,7 @@ $(function (){
   })
 
   $('.wd-p-back,.wd-p-close').on('tap click',function (){
-    var $dshow = $('#wd-cont-wrap,#myswipe');
+    var $dshow = $('#wd-cont-wrap,#wd-indexcover');
     togglepop($dshow)
   })
 
@@ -61,7 +66,7 @@ function modpos(img){
 
 function togglepop($dshow,$dhide){
   var title = $dshow.data('title') || '储曼曼 & 刘飞'
-  $dhide = $dhide || $currentpage || $('#wd-cont-wrap,#myswipe');
+  $dhide = $dhide || $currentpage || $('#wd-cont-wrap,#wd-indexcover');
 
   if( $dshow.selector == $dhide.selector ){
     return;

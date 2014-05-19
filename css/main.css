@@ -4,8 +4,8 @@ body,html{padding:0;margin:0;min-height:100%;
 user-select: none;
 font-family:'\5FAE\8F6F\96C5\9ED1';
 font-size:13px;
-color:#333;
-background-color:rgb(249,235,235);
+color:#4e120c;
+background-color:rgb(255,255,255);
 }
 h1,h2,h3,h4,h5,h6,ul,li,table,th,td,p{padding:0;margin:0;}
 .ma{margin-left:auto;margin-right:auto;}
@@ -31,11 +31,20 @@ h1,h2,h3,h4,h5,h6,ul,li,table,th,td,p{padding:0;margin:0;}
 .wd-backg{}
 .wd-backg img{position:fixed;display:none;}
 #wd-cont-wrap{position:relative;}
-.wd-cont{width:320px;margin:0 auto;}
+
 .wd-block{width:320px;border:1px solid #f00;color:#fdf9ff;}
 
-.wd-piece{margin:0 0 0 -16px;padding:16px 0 40px;}
-.wd-punit{float:left;margin:0 0 16px 16px;width:152px;}
+
+
+/* 首页 index */
+#wd-indexcover{position:relative;height:344px;background:#000 url(../images/indexcv.jpg) center 0 no-repeat;background-size:320px 344px;}
+.wd-indexstrike{position:absolute;left:0;right:0;bottom:0;height:11px;background:url(../images/strike.png) 0 0 repeat-x;background-size:22px 11px;}
+
+#wd-entry{width:320px;height:220px;margin:0 auto;background:url(../images/entry.png) 0 0 no-repeat;background-size:320px 220px;}
+.wd-piece{}
+.wd-punit{float:left;margin:0 0 0 0;width:158px;height:110px;text-indent:-9999px;}
+
+
 .wd-button{display:block;height:40px;line-height:39px;text-align:center;font-size:18px;font-weight:bold;border-radius:3px 3px 3px 3px;background:#fd6b8c;color:#fff;text-decoration:none !important;}
 /* 幻灯播放 slider */
 .swipe {
@@ -78,22 +87,30 @@ h1,h2,h3,h4,h5,h6,ul,li,table,th,td,p{padding:0;margin:0;}
 .wd-p-content{width:300px;min-height:100%;padding:0 10px 100px;margin:0 auto;}
 
 .wd-p-cls{min-height:100%}
+.wd-p-cls strong{font-size:1.2em}
 .wd-p-cls h3{line-height:32px;padding:8px 0 4px 0;font-weight:bold;}
 .wd-p-cls ul{padding:16px 0 0}
 .wd-p-cls li{list-style:disc;font-size:14px;margin:0 0 0 20px}
-.wd-p-cls li p{padding:8px 0;line-height:23px;}
+.wd-p-cls li p{padding:10px 0;line-height:23px;}
 .wd-p-cls .wd-lhsp{line-height:27px;}
 
 #wd-p-guide{letter-spacing:2px}
 
-.wd-p-table{background-color:#eea4ae}
-.wd-p-table td{padding:4px;vertical-align:top;background-color:rgb(249,235,235)}
+.wd-p-table strong{font-size:1.2em;}
+.wd-p-table td{padding:8px 4px 4px 0;vertical-align:top;}
 
 
+/* 好朋友 friends */
+.wd-friends{padding:44px 0 40px;text-align:left;font-size:1.2em;font-weight:bold;
+background:url(../images/friends.jpg) center 10px no-repeat;
+-webkit-background-size:auto;
+background-size:245px 26px;
+}
+.wd-friends p{padding:0 0 0 22px;margin:0;}
 /* 联系人 contact */
 .wd-mess{width:32px;height:20px;margin:0 0 0 8px;background:url(../images/mess.png) center center no-repeat;background-size:32px 20px;}
 
 /* 轻松一下 games */
-.wd-p-gameunit{height:60px;line-height:55px;font-size:18px;border-bottom:1px solid #f7d5db;}
-.wd-p-gameunit a{text-decoration:none !important;color:#333 !important;;}
+.wd-p-gameunit{height:60px;line-height:55px;font-size:18px;}
+.wd-p-gameunit a{text-decoration:none !important;color:#4e120c !important;;}
 .wd-p-gameunit img{float:left;margin:12px 16px 0 12px}
