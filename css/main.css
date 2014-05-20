@@ -101,9 +101,11 @@ h1,h2,h3,h4,h5,h6,ul,li,table,th,td,p{padding:0;margin:0;}
 
 
 /* 浪漫情史 story */
-#wd-p-storypic{height:344px;background-color:#000;background:#000 url(../images/indexcv.jpg) center 0 no-repeat;background-size:320px 344px;box-shadow:0 0 4px rgba(100, 100, 100, 0.8);}
+#wd-p-storypic{height:364px;background-color:#000;background:#000 url(../images/marry.jpg) center 0 no-repeat;background-size:320px 364px;box-shadow:0 0 4px rgba(100, 100, 100, 0.8);}
 
-#wd-story h3{margin:10px 0 0;font-size:1.2em;}
+#wd-story h3{padding:16px 0 8px;font-size:1.2em;}
+#wd-story h4{padding:40px 0 8px;font-size:1.2em;}
+
 
 /* 好朋友 friends */
 .wd-friends{padding:44px 0 40px;text-align:left;font-size:1.2em;font-weight:bold;
